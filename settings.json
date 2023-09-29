@@ -1,0 +1,15 @@
+{
+	"packages":{
+		"mongo":{
+			"options":{
+				"tlsAllowInvalidCertificates":true
+			}
+		}
+	},
+	"galaxy.meteor.com":{
+		"env":{
+			"MONGO_URL":"mongodb://thiagoreiss45:2J4eoKe4MWyANWs3v@SG-galaxycluster-38726.servers.mongodirector.com:27017,SG-galaxycluster-38727.servers.mongodirector.com:27017/react-tutorial-2-meteorapp-com?replicaSet=RS-galaxycluster-0&ssl=true",
+            "TEST_ENV_VAR": "thiago_via_settings"
+		}
+	}
+}
